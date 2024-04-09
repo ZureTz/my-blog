@@ -3,10 +3,10 @@ title: 在Apple Silicon Mac上入门汇编语言-1-底层的整数
 category: 
     - learning
 date: 2023-01-25 15:54:44
+math: true
 tags: 
     - code
     - assembly language
-math: true
 ---
 
 Source: [在 Apple Silicon Mac 上入门汇编语言](https://github.com/Evian-Zhang/learn-assembly-on-Apple-Silicon-Mac)

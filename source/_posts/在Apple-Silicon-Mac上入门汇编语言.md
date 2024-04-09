@@ -3,6 +3,7 @@ title: 在Apple Silicon Mac上入门汇编语言-Introduction
 category: 
     - learning
 date: 2023-01-25 01:23:05
+math: true
 tags: 
     - code
     - assembly language
