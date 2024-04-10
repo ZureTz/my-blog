@@ -9,19 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
 
-      - name: Install Pandoc
-        uses: pandoc/actions/setup@{master}
+      - uses: r-lib/actions/setup-pandoc@v2
         with:
-          version: 2.19
-
-      - name: Test pandoc
-        run: pandoc --version
+          pandoc-version: '3.1.11' # The pandoc version to download (if necessary) and use.
+      - run: echo "# Test" | pandoc -t html
 
       - name: Make swap file
         run: | 
