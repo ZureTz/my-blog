@@ -16,11 +16,11 @@ jobs:
           submodules: recursive
 
       - name: Install Pandoc
-        uses: pandoc/actions/setup@{main}
+        uses: pandoc/actions/setup@{master}
         with:
           version: 2.19
 
-      - name: Run pandoc
+      - name: Test pandoc
         run: pandoc --version
 
       - name: Make swap file
