@@ -1,5 +1,5 @@
 ---
-title: C++-Project-实现自己手搓的的vector
+title: C++-Project-实现自己手搓的vector
 date: 2023-04-30 00:30:58
 tags: 
     - library

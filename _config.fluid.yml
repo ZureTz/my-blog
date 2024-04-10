@@ -995,7 +995,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/background/fofu.jpeg
+  banner_img: /img/background/Sierra@0.5x.webp
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
