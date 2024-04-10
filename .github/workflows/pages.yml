@@ -14,17 +14,22 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
+
+      - name: Install Pandoc
+        uses: pandoc/actions/setup@{main}
+        with:
+          version: 2.19
+
+      - name: Run pandoc
+        run: pandoc --version
+
       - name: Make swap file
         run: | 
           sudo fallocate -l 512M /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
-      - name: Install Pandoc
-        run: |
-          # install pandoc
-          curl -s -L https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz | tar xvzf - -C $RUNNER_TOOL_CACHE/
-          export PATH="$PATH:$RUNNER_TOOL_CACHE/pandoc-2.9.2/bin"
+
       - name: Use Node.js 21.x
         uses: actions/setup-node@v2
         with:
