@@ -2,6 +2,10 @@
 title: 好听的w
 date: 2023-06-04 19:41:59
 tags: 音乐
+
+password: aaaa
+abstract: This blog is encrypted.
+message: You must enter the password to read.
 ---
 
 ## Original Post:
@@ -22,7 +26,7 @@ tags: 音乐
 
     <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/hoshikake-sketchbook-vol-1/1681723810"></iframe>
 
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/just-a-little-big-adventure/1681723810?i=1681723813"></iframe>
+    <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/cn/album/just-a-little-big-adventure/1681723810?i=1681723813"></iframe>
 
 - 其实喜欢听ああああ的曲子就够了（？（还不用掏钱（
 

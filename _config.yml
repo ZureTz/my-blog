@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Trozure's Blog
+title: 璃的 Blog
 subtitle: Uhhhh
 description: Furry
 keywords: Furry
@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://trozure.tech
+url: http://blog.trozure.uk
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -93,8 +93,8 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-  
+# include:
+
 exclude:
   - .DS_Store
 ignore:
@@ -105,9 +105,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+# Security
+##
+encrypt:
+    enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repository: trozure@trozure.tech:/home/git/blog.git   #用户名@服务器Ip:git仓库位置
-  branch: master
+# deploy:
+#   type: git
+#   repository: trozure@trozure.tech:/home/git/blog.git   #用户名@服务器Ip:git仓库位置
+#   branch: master
