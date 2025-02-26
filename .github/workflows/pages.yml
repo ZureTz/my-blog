@@ -31,6 +31,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '21'
+          
       - name: Cache NPM dependencies
         uses: actions/cache@v2
         with:
@@ -38,14 +39,18 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
+
       - name: Install Dependencies
         run: npm install
+
       - name: Build
         run: npm run build
+
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+          
   deploy:
     needs: build
     permissions:
