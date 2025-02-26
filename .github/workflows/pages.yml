@@ -28,12 +28,12 @@ jobs:
           sudo swapon /swapfile
 
       - name: Use Node.js 21.x
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '21'
-          
+
       - name: Cache NPM dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
@@ -63,4 +63,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
