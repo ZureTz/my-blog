@@ -1,7 +1,7 @@
 ---
 title: Favorite Games
 date: 2025-03-26 22:57:33
-tags:
+tags: Gaming
 ---
 
 1. Red Dead Redemption 2! You must play this game. Best graphic even without ray tracing. Best story ever for its kind. 
