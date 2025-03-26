@@ -27,10 +27,10 @@ jobs:
           sudo mkswap /swapfile
           sudo swapon /swapfile
 
-      - name: Use Node.js 21.x
+      - name: Use Node.js version 23
         uses: actions/setup-node@v4
         with:
-          node-version: '21'
+          node-version: '23'
 
       - name: Cache NPM dependencies
         uses: actions/cache@v4
