@@ -1,9 +1,13 @@
 ---
-title: 留学规划
+title: Future Plan
 date: 2023-10-14 20:03:31
 tags: 
     - 留学 
     - plan
+
+password: aaaa
+abstract: This blog is encrypted.
+message: You must enter the password to read.
 ---
 
 # 时间表
