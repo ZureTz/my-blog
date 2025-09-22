@@ -1,7 +1,11 @@
 ---
 title: 在rooted設備上使用Magisk進行OTA更新
 date: 2025-09-22 18:35:11
-tags: Android, Magisk, OTA
+tags: 
+   - Android
+   - Magisk
+   - root
+   - OTA
 ---
 
 
